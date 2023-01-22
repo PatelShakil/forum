@@ -51,7 +51,7 @@
   while ($row = mysqli_fetch_assoc($r)) {
     $c_name = $row['c_name'];
     $c_desc = $row['c_description']; ?>
-    <div class="card-center" style="width: 18rem;">
+    <div class="card mr-10" style="width: 18rem;">
   <img class="card-img-top" src="https://source.unsplash.com/500x400/?coding,<?php echo $c_name;?>" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title"><?php echo $c_name; ?></h5>
